@@ -1,4 +1,3 @@
-/* Home Page Specific Styles */
 .hero-content {
     display: flex;
     flex-direction: column;
@@ -142,7 +141,6 @@
     margin-left: 0;
 }
 
-/* Responsive Home Page */
 @media (min-width: 769px) {
     .hero-content {
         flex-direction: row;

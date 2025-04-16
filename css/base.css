@@ -1,7 +1,5 @@
-/* Import Kanit font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
 
-/* Reset and Base Styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,26 +8,21 @@
 }
 
 :root {
-    /* Colors */
     --primary-color: #82413D;
     --primary-hover: #6a3532;
     --secondary-color: #F2E3BC;
     --secondary-hover: #e6d4a9;
     --text-color: #333;
     --white: #fff;
-    
-    /* Gradients */
+
     --hero-gradient: linear-gradient(to bottom, #964B43, #6B8C8C);
-    
-    /* Spacing */
+
     --container-padding: 20px;
     --section-padding: 60px 0;
     
-    /* Border Radius */
     --border-radius: 33px;
     --border-radius-sm: 20px;
     
-    /* Transitions */
     --transition: all 0.3s ease;
 }
 
@@ -47,7 +40,6 @@ body {
     margin: 0 auto;
 }
 
-/* Typography */
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     line-height: 1.2;
@@ -59,7 +51,6 @@ a {
     transition: var(--transition);
 }
 
-/* Common Components */
 .btn {
     padding: 12px 30px;
     border: none;
