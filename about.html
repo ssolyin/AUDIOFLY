@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about AUDIOFLY's mission to revolutionize music discovery through AI. Meet our team of music industry veterans and AI experts who are transforming how people find new music.">
+    <meta name="keywords" content="AUDIOFLY about, music discovery AI, music technology, AI music recommendations, music industry technology">
+    <meta name="author" content="AUDIOFLY">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="About AUDIOFLY - AI-Powered Music Discovery">
+    <meta property="og:description" content="Discover how AUDIOFLY is revolutionizing music discovery through artificial intelligence. Learn about our technology and team.">
+    <meta property="og:type" content="website">
+    <title>About AUDIOFLY - AI-Powered Music Discovery | Our Story & Technology</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages/about.css">
+</head>
+<body>
+    <header role="banner">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo" aria-label="AUDIOFLY Home">AUDIOFLY</a>
+                <button class="mobile-menu-btn" aria-label="Toggle mobile menu">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="mobile-menu" role="navigation">
+                    <button class="demo-btn">Try Demo</button>
+                    <a href="#registration" class="get-started-btn">Get started</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+        <section class="about-hero" aria-labelledby="about-heading">
+            <div class="container">
+                <h1 id="about-heading">About AUDIOFLY</h1>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="lead">We're on a mission to revolutionize how people discover music through the power of artificial intelligence.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="our-story" aria-labelledby="story-heading">
+            <div class="container">
+                <h2 id="story-heading">Our Story</h2>
+                <div class="story-content">
+                    <div class="story-text">
+                        <p>AUDIOFLY was born from a simple observation: finding new music that truly resonates with your taste is becoming increasingly difficult in the age of endless streaming options. Our team of music enthusiasts and AI experts came together to solve this challenge.</p>
+                        <p>We developed a sophisticated AI algorithm that understands the nuances of your musical preferences, analyzing everything from tempo and key to emotional resonance and genre characteristics. This technology allows us to create highly personalized music recommendations that go beyond simple genre matching.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="technology" aria-labelledby="tech-heading">
+            <div class="container">
+                <h2 id="tech-heading">Our Technology</h2>
+                <div class="tech-content">
+                    <div class="tech-text">
+                        <p>At the heart of AUDIOFLY is our advanced AI system that:</p>
+                        <ul>
+                            <li>Analyzes your existing playlists to understand your musical preferences</li>
+                            <li>Identifies patterns in your listening habits and favorite genres</li>
+                            <li>Learns from your feedback to improve recommendations over time</li>
+                            <li>Connects with major music platforms to create seamless playlist integration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team" aria-labelledby="team-heading">
+            <div class="container">
+                <h2 id="team-heading">Our Team</h2>
+                <div class="team-content">
+                    <div class="team-text">
+                        <p>AUDIOFLY is powered by a diverse team of:</p>
+                        <ul>
+                            <li>Music industry veterans with decades of experience</li>
+                            <li>AI and machine learning experts</li>
+                            <li>Software engineers passionate about music</li>
+                            <li>User experience designers focused on making music discovery intuitive</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <nav class="footer-links" aria-label="Footer navigation">
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="privacy.html">Privacy policy</a>
+                </nav>
+                <div class="social-links" aria-label="Social media links">
+                    <a href="#" aria-label="Follow us on X">X</a>
+                    <a href="#" aria-label="Follow us on YouTube">YouTube</a>
+                    <a href="#" aria-label="Follow us on Telegram">Telegram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup-overlay" id="registration" role="dialog" aria-labelledby="registration-heading">
+        <div class="popup-content">
+            <a href="#" class="close-popup" aria-label="Close registration form">&times;</a>
+            <h2 id="registration-heading">Create Your Account</h2>
+            <form class="registration-form" aria-label="Registration form">
+                <div class="form-group">
+                    <label for="reg-name">Full Name</label>
+                    <input type="text" id="reg-name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-email">Email</label>
+                    <input type="email" id="reg-email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-password">Password</label>
+                    <input type="password" id="reg-password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-confirm-password">Confirm Password</label>
+                    <input type="password" id="reg-confirm-password" name="confirm-password" required>
+                </div>
+                <button type="submit" class="submit-btn">Create Account</button>
+            </form>
+            <p class="login-link">Already have an account? <a href="#" id="loginLink">Log in</a></p>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.mobile-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html> 

@@ -1,0 +1,51 @@
+/* About Page Specific Styles */
+.our-story, .technology, .team {
+    padding: 60px 0;
+}
+
+.our-story h2, .technology h2, .team h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.story-content, .tech-content, .team-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.story-text p, .tech-text p, .team-text p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.tech-text ul, .team-text ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.tech-text li, .team-text li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.tech-text li:before, .team-text li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+/* Responsive About Page */
+@media (min-width: 769px) {
+    .story-text p, .tech-text p, .team-text p {
+        font-size: 18px;
+    }
+} 

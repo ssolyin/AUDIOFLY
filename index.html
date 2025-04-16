@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AUDIOFLY - AI-powered music discovery platform that analyzes your playlists and creates personalized recommendations based on your taste. Connect with Spotify, Apple Music, or YouTube Music.">
+    <meta name="keywords" content="music discovery, AI music, personalized playlists, music recommendations, Spotify integration, Apple Music integration, YouTube Music integration">
+    <meta name="author" content="AUDIOFLY">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="AUDIOFLY - AI-Powered Music Discovery">
+    <meta property="og:description" content="Discover new music tailored to your taste with AI-powered recommendations. Connect your favorite music platform and get personalized playlists.">
+    <meta property="og:type" content="website">
+    <title>AUDIOFLY - AI-Powered Music Discovery | Personalized Music Recommendations</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages/home.css">
+</head>
+<body>
+    <header role="banner">
+        <div class="container">
+            <div class="header-content">
+                <a href="home.html" class="logo" aria-label="AUDIOFLY Home">AUDIOFLY</a>
+                <button class="mobile-menu-btn" aria-label="Toggle mobile menu">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="mobile-menu" role="navigation">
+                    <button class="demo-btn">Try Demo</button>
+                    <a href="#registration" class="get-started-btn">Get started</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="container">
+                <h1 id="hero-heading">Discover New Music, Tailored for You</h1>
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <p>Struggling to find music that matches your taste? AUDIOFLY uses advanced AI to analyze your playlists and discover new tracks you'll love. Connect your favorite music platform and let our AI create personalized recommendations just for you.</p>
+                    </div>
+                    <div class="email-form">
+                        <input type="email" class="email-input" placeholder="Email" aria-label="Enter your email">
+                        <button class="start-btn">Start</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works" aria-labelledby="how-it-works-heading">
+            <div class="container">
+                <h2 id="how-it-works-heading">How it Works</h2>
+                <div class="feature-container">
+                    <div class="feature-text">
+                        <p>Our AI-powered platform makes music discovery effortless. Simply connect your existing playlists from your preferred music platform, and our advanced algorithm analyzes your listening habits, favorite genres, and musical preferences. AUDIOFLY then creates a personalized playlist with carefully selected tracks that match your taste, introducing you to new artists and songs you're likely to enjoy.</p>
+                    </div>
+                    <div class="feature-video">
+                        <video autoplay loop muted playsinline aria-label="AUDIOFLY platform demonstration">
+                            <source src="images/video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ai-assistant" aria-labelledby="ai-assistant-heading">
+            <div class="ai-assistant-content">
+                <h2 id="ai-assistant-heading">Try out AI assistant right now</h2>
+                <div class="connect-box">
+                    <input type="text" class="connect-input" placeholder="Connect your playlist to get recommendations" aria-label="Enter playlist URL">
+                    <a href="#connect" class="connect-button">Connect</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="popup-overlay" id="connect" role="dialog" aria-labelledby="connect-heading">
+            <div class="popup-content">
+                <a href="#" class="close-popup" aria-label="Close popup">&times;</a>
+                <h2 id="connect-heading">Connect Your Music Platform</h2>
+                <div class="platform-options">
+                    <button class="platform-btn spotify" aria-label="Connect with Spotify">
+                        <img src="images/spotify-icon.png" alt="Spotify logo">
+                        <span>Connect with Spotify</span>
+                    </button>
+                    <button class="platform-btn apple" aria-label="Connect with Apple Music">
+                        <img src="images/apple-music-icon.png" alt="Apple Music logo">
+                        <span>Connect with Apple Music</span>
+                    </button>
+                    <button class="platform-btn youtube" aria-label="Connect with YouTube Music">
+                        <img src="images/youtube-music-icon.png" alt="YouTube Music logo">
+                        <span>Connect with YouTube Music</span>
+                    </button>
+                </div>
+                <p class="connect-info">Choose your preferred music platform to get personalized recommendations based on your playlists.</p>
+            </div>
+        </div>
+
+        <section class="user-feedback" aria-labelledby="feedback-heading">
+            <div class="container">
+                <h2 id="feedback-heading">User feedback</h2>
+                <div class="testimonials">
+                    <article class="testimonial">
+                        <div class="user-image">
+                            <img src="/images/Craig McKay.jpg" alt="Craig McKay - AUDIOFLY user" width="100" height="100">
+                        </div>
+                        <div class="user-name">Craig McKay</div>
+                        <p>AUDIOFLY has completely changed how I discover music. The AI suggestions are incredibly accurate, and I've found so many new artists I love. It's like having a personal music curator who knows my taste perfectly!</p>
+                    </article>
+                    <article class="testimonial">
+                        <div class="user-image">
+                            <img src="/images/Aaron James.jpg" alt="Aaron James - AUDIOFLY user" width="100" height="100">
+                        </div>
+                        <div class="user-name">Aaron James</div>
+                        <p>I was stuck listening to the same music for years until I found AUDIOFLY. The AI analysis of my playlists was spot-on, and the recommendations introduced me to genres I never thought I'd enjoy. It's a game-changer for music discovery!</p>
+                    </article>
+                    <article class="testimonial">
+                        <div class="user-image">
+                            <img src="/images/Jerry Austin.jpg" alt="Jerry Austin - AUDIOFLY user" width="100" height="100">
+                        </div>
+                        <div class="user-name">Jerry Austin</div>
+                        <p>The ease of connecting my existing playlists and getting instant, personalized recommendations is amazing. AUDIOFLY's AI understands my music taste better than I do, and I'm constantly discovering new favorites!</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="join-now" aria-labelledby="join-heading">
+            <div class="container">
+                <h2 id="join-heading">Join now</h2>
+                <div class="join-now-content">
+                    <div class="join-text">
+                        <p>Ready to transform your music discovery experience? Join AUDIOFLY today and let our AI-powered platform introduce you to your next favorite songs. Connect your playlists, and we'll help you explore new music that matches your taste perfectly.</p>
+                    </div>
+                    <div class="join-form">
+                        <input type="email" class="email-input" placeholder="Email" aria-label="Enter your email">
+                        <button class="start-btn">Start</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <nav class="footer-links" aria-label="Footer navigation">
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="privacy.html">Privacy policy</a>
+                </nav>
+                <div class="social-links" aria-label="Social media links">
+                    <a href="#" aria-label="Follow us on X">X</a>
+                    <a href="#" aria-label="Follow us on YouTube">YouTube</a>
+                    <a href="#" aria-label="Follow us on Telegram">Telegram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup-overlay" id="registration" role="dialog" aria-labelledby="registration-heading">
+        <div class="popup-content">
+            <a href="#" class="close-popup" aria-label="Close registration form">&times;</a>
+            <h2 id="registration-heading">Create Your Account</h2>
+            <form class="registration-form" aria-label="Registration form">
+                <div class="form-group">
+                    <label for="reg-name">Full Name</label>
+                    <input type="text" id="reg-name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-email">Email</label>
+                    <input type="email" id="reg-email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-password">Password</label>
+                    <input type="password" id="reg-password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-confirm-password">Confirm Password</label>
+                    <input type="password" id="reg-confirm-password" name="confirm-password" required>
+                </div>
+                <button type="submit" class="submit-btn">Create Account</button>
+            </form>
+            <p class="login-link">Already have an account? <a href="#" id="loginLink">Log in</a></p>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.mobile-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
